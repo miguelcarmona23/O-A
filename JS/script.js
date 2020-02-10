@@ -50,3 +50,9 @@ const rick = {
         facebook: 'Rick and Morty'
     }
 };
+const dev2 = JSON.parse(JSON.stringify(rick));
+console.clear();
+console.log(rick)
+
+
+const dev = Object.assign({}, rick);
