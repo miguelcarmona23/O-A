@@ -34,8 +34,8 @@ const person = {
     age: 80
 };
 
-const captain = person;
-captain.number = 23;
+//const captain = person;
+//captain.number = 23;
 
-const cap2 = Object.assign({}, person, { number: 23 });
+const cap2 = Object.assign({}, person, { number: 23, age: 15 });
 console.log(cap2);
