@@ -1,5 +1,19 @@
 const players = ['Rick', 'Summer', 'Morty', 'Beth'];
 
+const team = players;
+//let age = 100;
+//let age2 = age;
+//console.log(age, age2);
+//age = 200;
+//console.log(age, age2);
+
+//let name = 'Rick';
+//let name2 = name;
+//console.log(name, name2);
+//name = 'Morty';
+//console.log(name, name2);
+
+
 const person = {
     name: 'Rick Sanchez',
     age: 80
