@@ -15,6 +15,7 @@ const team4 = [...players];
 team4[3] = 'Wub a dub dub';
 console.log(team4);
 
+const team5 = Array.from(players);
 //let age = 100;
 //let age2 = age;
 //console.log(age, age2);
