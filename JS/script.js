@@ -36,3 +36,6 @@ const person = {
 
 const captain = person;
 captain.number = 23;
+
+const cap2 = Object.assign({}, person, { number: 23 });
+console.log(cap2);
