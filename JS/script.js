@@ -39,3 +39,14 @@ const person = {
 
 const cap2 = Object.assign({}, person, { number: 23, age: 15 });
 console.log(cap2);
+
+const cap3 = {...person };
+
+const rick = {
+    name: 'Rick',
+    age: 100,
+    social: {
+        twitter: '@rickandmorty',
+        facebook: 'Rick and Morty'
+    }
+};
