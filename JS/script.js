@@ -35,3 +35,4 @@ const person = {
 };
 
 const captain = person;
+captain.number = 23;
