@@ -8,6 +8,8 @@ team[3] = 'Evil Rick';
 
 
 const team2 = players.slice();
+
+const team3 = [].concat(players);
 //let age = 100;
 //let age2 = age;
 //console.log(age, age2);
