@@ -1,6 +1,13 @@
 const players = ['Rick', 'Summer', 'Morty', 'Beth'];
 
 const team = players;
+
+console.log(players, team);
+
+team[3] = 'Evil Rick';
+
+
+
 //let age = 100;
 //let age2 = age;
 //console.log(age, age2);
