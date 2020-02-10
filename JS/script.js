@@ -7,7 +7,7 @@ console.log(players, team);
 team[3] = 'Evil Rick';
 
 
-
+const team2 = players.slice();
 //let age = 100;
 //let age2 = age;
 //console.log(age, age2);
