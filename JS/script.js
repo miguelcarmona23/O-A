@@ -12,6 +12,9 @@ const team2 = players.slice();
 const team3 = [].concat(players);
 
 const team4 = [...players];
+team4[3] = 'Wub a dub dub';
+console.log(team4);
+
 //let age = 100;
 //let age2 = age;
 //console.log(age, age2);
