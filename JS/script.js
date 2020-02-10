@@ -33,3 +33,5 @@ const person = {
     name: 'Rick Sanchez',
     age: 80
 };
+
+const captain = person;
